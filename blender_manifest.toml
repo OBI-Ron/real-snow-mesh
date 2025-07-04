@@ -13,7 +13,7 @@ type = "add-on"
 tags = ["Object"]
 blender_version_min = "4.3.2"
 license = ["SPDX:GPL-3.0-or-later"]
-website = "https://github.com/ron-taulbee/real_snow_mesh"  # Replace with your actual URL
+website = "https://github.com/OBI-Ron/real-snow-mesh"
 copyright = [
   "2024 Marco Pavanello",
   "2024 Drew Perttula",

@@ -9,8 +9,8 @@ bl_info = {
     "version": (1, 4, 0),
     "blender": (4, 3, 0),
     "location": "View 3D > Properties Panel",
-    "doc_url": "{BLENDER_MANUAL_URL}/addons/object/real_snow.html",
-    "tracker_url": "https://gitlab.com/marcopavanello/real-snow/-/issues",
+    "doc_url": "https://github.com/OBI-Ron/real-snow-mesh#readme",
+    "tracker_url": "https://github.com/OBI-Ron/real-snow-mesh/issues",
     "support": "COMMUNITY",
     "category": "Object",
 }
