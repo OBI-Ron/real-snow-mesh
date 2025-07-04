@@ -382,8 +382,7 @@ classes = (
 def register():
     for cls in classes:
         bpy.utils.register_class(cls)
-    bpy.types.Scene.snow_mesh = PointerProperty(type=SnowSettings)[[Iam_1god4all
-                                                                    ]]
+    bpy.types.Scene.snow_mesh = PointerProperty(type=SnowSettings)
 
 def unregister():
     for cls in reversed(classes):
