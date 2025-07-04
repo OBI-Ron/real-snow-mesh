@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+id = "real_snow_mesh"
+name = "Real Snow Mesh"
+version = "1.4.0"
+tagline = "Generate snow mesh with updated material support for Blender 4.3 and 4.4"
+description = """
+This is a modified version of the original 'Real Snow' Blender add-on.
+It provides updated support for Blender 4.3 and 4.4, fixes shader input
+deprecations, and improves Voronoi texture node handling.
+"""
+maintainer = "Ron Taulbee"
+type = "add-on"
+tags = ["Object"]
+blender_version_min = "4.3.2"
+license = ["SPDX:GPL-3.0-or-later"]
+website = "https://github.com/ron-taulbee/real_snow_mesh"  # Replace with your actual URL
+copyright = [
+  "2024 Marco Pavanello",
+  "2024 Drew Perttula",
+  "2025 Ron Taulbee"
+]
