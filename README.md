@@ -14,6 +14,9 @@ This is a modified version of the **Real Snow** Blender add-on, originally devel
 **Ron Taulbee (2025)**  
 Contact: [ron.taulbee@gmail.com](mailto:ron.taulbee@gmail.com)
 
+📌 See the [Roadmap](ROADMAP.md) for future development plans and tracking.
+
+
 ## Description
 
 This modified version updates the add-on for compatibility with Blender 4.3 and 4.4. Changes include:
