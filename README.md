@@ -27,7 +27,7 @@ This modified version updates the add-on for compatibility with Blender 4.3 and 
 - General code cleanup and improved version tagging.
 - **Tested on:**  
   - Linux (Ubuntu 22.04)  
-  - Blender versions: 4.3.2 and 4.4.3
+  - Blender versions: 4.3.2, 4.4.3 and 5.0
 
 ## License
 
