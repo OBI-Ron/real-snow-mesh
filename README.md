@@ -1,4 +1,4 @@
-# Real Snow Mesh (Modified for Blender 4.3 and 4.4)
+# Real Snow Mesh (Modified for Blender 4.3, 4.4 and 5.0)
 
 This is a modified version of the **Real Snow** Blender add-on, originally developed by:
 
