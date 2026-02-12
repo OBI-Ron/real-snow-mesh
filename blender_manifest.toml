@@ -1,8 +1,8 @@
 schema_version = "1.0.0"
 id = "real_snow_mesh"
 name = "Real Snow Mesh"
-version = "1.4.0"
-tagline = "Generate snow mesh with updated material support for Blender 4.3 and 4.4"
+version = "1.4.1"
+tagline = "Generate snow mesh with support for Blender 4.3, 4.4, 4.5 LTS, and 5.0"
 description = """
 This is a modified version of the original 'Real Snow' Blender add-on.
 It provides updated support for Blender 4.3 and 4.4, fixes shader input

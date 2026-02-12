@@ -6,7 +6,7 @@ bl_info = {
     "name": "Real Snow Mesh",
     "description": "Generate snow mesh",
     "author": "Marco Pavanello, Drew Perttula, Ron Taulbee",
-    "version": (1, 4, 0),
+    "version": (1, 4, 1),
     "blender": (4, 3, 0),
     "location": "View 3D > Properties Panel",
     "doc_url": "https://github.com/OBI-Ron/real-snow-mesh#readme",
@@ -160,7 +160,9 @@ def add_modifiers(snow):
     snow.modifiers.new("Subdiv", "SUBSURF")
     snow.modifiers["Subdiv"].render_levels = 1
     snow.modifiers["Subdiv"].quality = 1
-    snow.cycles.use_adaptive_subdivision = True
+    # Adaptive subdivision was removed in Blender 5.0
+    if bpy.app.version < (5, 0, 0):
+        snow.cycles.use_adaptive_subdivision = True
 
 
 def add_particles(context, surface_area: float, height: float, coverage: float, snow_object: bpy.types.Object, ballobj: bpy.types.Object):
